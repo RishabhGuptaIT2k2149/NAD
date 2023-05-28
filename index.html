@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Website</title>
+  <style>
+    body {
+      background: #f2f2f2;
+      color: #333;
+      display: flex;
+      flex-direction: column;
+      margin: 0;
+    }
+    .container {
+      display: flex;
+    }
+    .left-section {
+      flex: 0 0 60%;
+      padding: 90px;
+      background: linear-gradient(to bottom, #FFA500, #FF4500);
+    }
+    .profile-photo {
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+      object-fit: cover;
+    }
+    .intro {
+      margin-top: 20px;
+      font-size: 18px;
+    }
+    .description {
+      margin-top: 10px;
+      font-size: 16px;
+    }
+    .right-section {
+      flex: 1;
+      background: beige;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 50px;
+      overflow: hidden;
+    }
+    .video-container {
+      max-width: 100%;
+      margin-top: 20px;
+      text-align: center;
+    }
+    .video-container iframe {
+      width: 100%;
+      max-width: 560px;
+      height: auto;
+    }
+    nav {
+      background: #f2f2f2;
+      padding: 10px;
+    }
+    nav ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+    }
+    nav li {
+      display: inline;
+      margin-right: 10px;
+    }
+    nav a {
+      text-decoration: none;
+      color: black;
+      padding: 5px;
+    }
+    footer {
+      background: #f2f2f2;
+      padding: 10px;
+      text-align: center;
+      flex-shrink: 0;
+    }
+    footer a {
+      text-decoration: none;
+      color: black;
+      margin: 0 5px;
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="projects.html">Projects</a></li>
+      <li><a href="submission.html">Submission</a></li>
+      <li><a href="contact.html">Contact Me</a></li>
+    </ul>
+  </nav>
+
+  <div class="container">
+    <div class="left-section"> 
+      <h1>Welcome to My Website</h1>
+      <img src="profile.jpeg" alt="Profile Photo" class="profile-photo">
+      <div class="intro">
+        <p>Hi, I'm Rishabh Gupta!</p>
+      </div>
+      <div class="description">
+        <p>M.Tech (I.T) From International Institute of Professional Studies DAVV, Indore</p>
+        <p>I am very thrilled to show my existing and upcoming work to the whole world. I have poured my heart and soul into the creation of these projects, and I am excited to share them with you. Each project represents countless hours of brainstorming, designing, coding, and refining. It has been an incredible journey of learning and growth, and I am grateful for the opportunity to showcase my skills and creativity.</p>
+        <p>I hope you enjoy exploring my projects and appreciate the efforts I have put into bringing them to life. From web development to data analysis, each piece of work reflects my passion for technology and my commitment to delivering high-quality results.</p>
+        <p>Thank you for visiting my website and joining me on this exciting adventure. I look forward to your feedback and support as I continue to pursue my passion for creating innovative solutions.</p>
+      </div>
+    </div>
+    <div class="right-section">
+      <h2>End Sem Solution Video</h2>
+      <div class="video-container">
+        <!-- Embed your YouTube video here -->
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/0W3VgPknGA0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <a href="https://github.com/RishabhGuptaIT2k2149">GitHub</a>
+    <a href="https://youtube.com/@rishabhgupta7207">YouTube</a>
+    <a href="https://www.linkedin.com/in/rishabh-gupta-150082277/">Linkedin</a>
+  </footer>
+</body>
+</html>
